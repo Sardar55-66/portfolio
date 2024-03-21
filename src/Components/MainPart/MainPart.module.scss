@@ -1,0 +1,11 @@
+.mainWrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 132rem;
+}
+
+.mainWrapper:last-child {
+    margin-top: -8rem;
+}

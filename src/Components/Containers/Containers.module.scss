@@ -1,0 +1,132 @@
+.cardsContainer {
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: rgba(0, 48, 19, 0.6);
+    width: 100%;
+    min-height: 900px;
+    align-content: flex-start;
+}
+
+.title {
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: 20px;
+    color: #fff;
+    height: 70px;
+    width: 80%;
+}
+
+.divider {
+    position: absolute;
+    top: 185px;
+    height: 2px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.secondTitle {
+    margin-top: 50px;
+    height: 70px;
+    font-size: 20px;
+    color: #FAFF00;
+}
+
+.aramcoLogo {
+    display: block;
+    height: 70px;
+    width: 80%;
+}
+
+.thirdTitle {
+    margin: 20px 20px;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    width: 92%;
+}
+
+.listOfAspects {
+    width: 92%;
+}
+
+.listOfAspects:last-child {
+    margin-bottom: 30px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list>li {
+    padding: 0;
+    text-align: left;
+    color: #FAFF00;
+    font-size: 20px;
+}
+
+.list>div {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff;
+    font-size: 16px;
+}
+
+.list>div:last-child {
+    margin: 0;
+}
+
+.fourthTitle {
+    margin: 20px 20px;
+    width: 92%;
+    margin: 20px 20px;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+}
+
+.secondDivider {
+    display: block;
+    margin-top: 40px;
+    height: 2px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.fifthTitle {
+    margin: 20px 20px;
+    display: block;
+    width: 92%;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #FAFF00;
+    height: 50px;
+}
+
+.exonLogo {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.sixTitle {
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    width: 92%;
+}
+
+.bhpLogo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E35302;
+    height: 50px;
+    width: 92%;
+
+}
