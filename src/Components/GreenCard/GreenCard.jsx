@@ -1,6 +1,5 @@
 import React from "react";
 import classes from './GreenCard.module.scss';
-import logo from '../../assets/img/logo1.png'
 
 export const GreenCard = (props) => {
 
@@ -10,7 +9,7 @@ export const GreenCard = (props) => {
 
     return <>
     {title.map((el, id) => {
-        return <div className={classes.cardWrapper}>
+        return <div className={id === 2 || id=== 3 ? classes.additional : classes.cardWrapper }>
         <div className={classes.title}>
             <img className={classes.imgLogo} src={logo[id]} alt="logo" />
             <span>{el}</span>
